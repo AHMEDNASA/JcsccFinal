@@ -1,0 +1,11 @@
+#searchTxt { 
+ direction: rtl;
+ text-align: right;
+}
+
+
+#img{
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+}
