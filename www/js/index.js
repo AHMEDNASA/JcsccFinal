@@ -44,8 +44,11 @@ $(function() {
     $("#searchBtn").click(function() {
 
         $("#loadingImg").show();
+        
+        var str = $("#searchTxt").val();
+        var replaced = str.split(' ').join('%');
 
-        var a = "%" + $("#searchTxt").val() + "%";
+        var a = "%" + replaced + "%";
         $.post("http://services.jcscc.gov.jo:8090/consumers/MarketPric.jsp", {
                 itemd: a
             },
