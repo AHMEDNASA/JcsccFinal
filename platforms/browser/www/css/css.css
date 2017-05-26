@@ -1,0 +1,42 @@
+@charset "utf-8";
+	.XMLID_15_
+{
+	background : #1E3374;
+	background : rgba(30, 51, 116, 1);
+	position : absolute ;
+	left : -795px;
+	top : 277px;
+	width : 232px;
+	height : 232px;
+}
+.XMLID_22_
+{
+	background-image : url(XMLID_22_.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 80px;
+	top : 794px;
+	width : 934px;
+	height : 332px;
+}
+.XMLID_20_
+{
+	background : url(dpi10.png);
+	opacity : 0.6;
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 1080px;
+	height : 1920px;
+	filter: alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) ;
+}
+.XMLID_14_
+{
+	background : #1E3374;
+	background : rgba(30, 51, 116, 1);
+	position : absolute ;
+	left : 0px;
+	top : 0px;
+	width : 1080px;
+	height : 1920px;
+}
