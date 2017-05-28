@@ -6,7 +6,11 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <meta http-equiv="Content-Security-Policy" content="
+    default-src * 'unsafe-inline';
+    style-src 'self' 'unsafe-inline'; 
+    media-src *;
+    img-src * " />
    
     <!-- <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.min.css" />
@@ -22,7 +26,7 @@
 <body>
     <div data-role="page" data-theme="f" class="myBackgroundStyle">
         <div data-role="header">
-        <img src="res/icon/android/icon-48-mdpi.png" style="display:block; text-align: center; margin: auto">
+        <img src="./img/icon.png" style="display:block; text-align: center; margin: auto">
             <h1>اسعار المؤسسة المدنية</h1>
         </div>
         <!-- /header -->
@@ -41,8 +45,7 @@
 
         <!-- /content -->
         <div data-role="footer" data-position="fixed" style="text-align: center">
-        <a href="#" onclick="window.open('services.jcscc.gov.jo:8090/consumers/MarketPric.jsp', '_system');">الموقع الرسمي للمؤسسة
-        </a>
+        <a href="services.jcscc.gov.jo:8090/consumers/MarketPric.jsp" target="_blank">الموقع الرسمي للمؤسسة</a>
         
         
     </div><!-- /footer -->
